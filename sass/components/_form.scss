@@ -12,13 +12,14 @@
         background-color: rgba($color-white, .5);
         border: none;
         border-bottom: 3px solid transparent;
-        width: 90%;
+        width: 100%;
         display: block;
         transition: all .3s;
 
         @include respond(tab-port) {
             width: 100%;
         }
+
 
         &:focus {
             outline: none;
@@ -42,6 +43,7 @@
         margin-top: .7rem;
         display: block;
         transition: all .3s;
+
     }
 
     &__input:placeholder-shown + &__label {
